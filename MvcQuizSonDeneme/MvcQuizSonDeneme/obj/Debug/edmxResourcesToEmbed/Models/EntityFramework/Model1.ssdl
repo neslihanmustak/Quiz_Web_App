@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MvcQuizYeniModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="kullaniciBilgileri">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="isim" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="soyisim" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="kullaniciAdi" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="sifre" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SoruKarti">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="soru" Type="nvarchar" MaxLength="200" />
+    <Property Name="cevap" Type="nvarchar" MaxLength="200" />
+    <Property Name="kullaniciId" Type="int" />
+    <Property Name="kategori" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="soruKategori">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kategori" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_SoruKarti_Kategori">
+    <End Role="soruKategori" Type="Self.soruKategori" Multiplicity="1" />
+    <End Role="SoruKarti" Type="Self.SoruKarti" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="soruKategori">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="SoruKarti">
+        <PropertyRef Name="kategori" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SoruKarti_Kullanici">
+    <End Role="kullaniciBilgileri" Type="Self.kullaniciBilgileri" Multiplicity="0..1" />
+    <End Role="SoruKarti" Type="Self.SoruKarti" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kullaniciBilgileri">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="SoruKarti">
+        <PropertyRef Name="kullaniciId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MvcQuizYeniModelStoreContainer">
+    <EntitySet Name="kullaniciBilgileri" EntityType="Self.kullaniciBilgileri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SoruKarti" EntityType="Self.SoruKarti" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="soruKategori" EntityType="Self.soruKategori" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_SoruKarti_Kategori" Association="Self.FK_SoruKarti_Kategori">
+      <End Role="soruKategori" EntitySet="soruKategori" />
+      <End Role="SoruKarti" EntitySet="SoruKarti" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SoruKarti_Kullanici" Association="Self.FK_SoruKarti_Kullanici">
+      <End Role="kullaniciBilgileri" EntitySet="kullaniciBilgileri" />
+      <End Role="SoruKarti" EntitySet="SoruKarti" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

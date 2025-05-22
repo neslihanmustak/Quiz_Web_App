@@ -1,0 +1,32 @@
+﻿@model IEnumerable<MvcQuizSonDeneme.Models.EntityFramework.soruKategori>
+
+@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Memory Card</h2>
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/MemoryCard.css" />
+    <link rel="icon" type="image/icon" href="images\favicon.ico" />
+
+</head>
+<body>
+
+    @foreach (var kategori in Model)
+    {
+        <div style="margin-bottom: 10px;">
+            <a href="/MemoryKart/KartGoster?kategoriId=@kategori.id" class="btn btn-outline-primary">
+                @kategori.kategori
+            </a>
+        </div>
+    }
+
+    <a href="/MemoryKart/YeniKategori" class="btn btn-secondary">Kategori Ekle</a>
+</body>
+</html>

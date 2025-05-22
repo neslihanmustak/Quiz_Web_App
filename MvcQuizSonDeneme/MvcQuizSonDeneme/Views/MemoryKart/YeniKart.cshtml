@@ -1,0 +1,42 @@
+﻿@model MvcQuizSonDeneme.Models.EntityFramework.SoruKarti
+
+@{
+    ViewBag.Title = "YeniKart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/MemoryCard.css" />
+    <link rel="icon" type="image/icon" href="images/favicon.ico" />
+</head>
+<body>
+    @using (Html.BeginForm("YeniKart", "MemoryKart", FormMethod.Post))
+    {
+        <h2>Yeni Kart</h2>
+        <br />
+
+        @Html.LabelFor(x => x.soru)
+        @Html.TextBoxFor(x => x.soru, new { @class = "form-control", placeholder = "Yeni Soru" })
+        <br />
+
+        @Html.LabelFor(x => x.cevap)
+        @Html.TextBoxFor(x => x.cevap, new { @class = "form-control", placeholder = "Yeni Cevap" })
+        <br />
+
+        @Html.Label("Kullanıcı Seçiniz")
+        @Html.DropDownListFor(x => x.kullaniciId, (List<SelectListItem>)ViewBag.Kullanicilar, "Kullanıcı Seç", new { @class = "form-control" })
+        <br />
+
+        @Html.Label("Kategori Seçiniz")
+        @Html.DropDownListFor(x => x.kategori, (List<SelectListItem>)ViewBag.Kategoriler, "Kategori Seç", new { @class = "form-control" })
+        <br />
+
+        <button class="btn btn-info">Kaydet</button>
+    }
+
+</body>
+</html>

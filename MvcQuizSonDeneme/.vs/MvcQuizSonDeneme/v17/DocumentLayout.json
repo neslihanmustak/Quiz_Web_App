@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\mvcquizsondeneme\\mvcquizsondeneme\\mvcquizsondeneme\\views\\memorykart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|solutionrelative:mvcquizsondeneme\\views\\memorykart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\YeniKategori.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|solutionrelative:MvcQuizSonDeneme\\Views\\MemoryKart\\YeniKategori.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\YeniKart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|solutionrelative:MvcQuizSonDeneme\\Views\\MemoryKart\\YeniKart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\KategoriBilgileriniGetir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|solutionrelative:MvcQuizSonDeneme\\Views\\MemoryKart\\KategoriBilgileriniGetir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\KartBilgileriniGoruntule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|solutionrelative:MvcQuizSonDeneme\\Views\\MemoryKart\\KartBilgileriniGoruntule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Controllers\\MemoryKartController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|solutionrelative:MvcQuizSonDeneme\\Controllers\\MemoryKartController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Controllers\\KayitOlController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|solutionrelative:MvcQuizSonDeneme\\Controllers\\KayitOlController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Controllers\\GirisController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|solutionrelative:MvcQuizSonDeneme\\Controllers\\GirisController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\KategoriSecimEkrani.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|solutionrelative:MvcQuizSonDeneme\\Views\\MemoryKart\\KategoriSecimEkrani.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\KayitOl\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|solutionrelative:MvcQuizSonDeneme\\Views\\KayitOl\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\Giris\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71833984-A815-4377-B9FA-BCCFB2923B8F}|MvcQuizSonDeneme\\MvcQuizSonDeneme.csproj|solutionrelative:MvcQuizSonDeneme\\Views\\Giris\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "YeniKart.cshtml",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\YeniKart.cshtml",
+              "RelativeDocumentMoniker": "MvcQuizSonDeneme\\Views\\MemoryKart\\YeniKart.cshtml",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\YeniKart.cshtml",
+              "RelativeToolTip": "MvcQuizSonDeneme\\Views\\MemoryKart\\YeniKart.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T17:51:58.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KategoriBilgileriniGetir.cshtml",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\KategoriBilgileriniGetir.cshtml",
+              "RelativeDocumentMoniker": "MvcQuizSonDeneme\\Views\\MemoryKart\\KategoriBilgileriniGetir.cshtml",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\KategoriBilgileriniGetir.cshtml",
+              "RelativeToolTip": "MvcQuizSonDeneme\\Views\\MemoryKart\\KategoriBilgileriniGetir.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T17:51:49.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KartBilgileriniGoruntule.cshtml",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\KartBilgileriniGoruntule.cshtml",
+              "RelativeDocumentMoniker": "MvcQuizSonDeneme\\Views\\MemoryKart\\KartBilgileriniGoruntule.cshtml",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\KartBilgileriniGoruntule.cshtml",
+              "RelativeToolTip": "MvcQuizSonDeneme\\Views\\MemoryKart\\KartBilgileriniGoruntule.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T17:51:45.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcQuizSonDeneme\\Views\\MemoryKart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\Index.cshtml",
+              "RelativeToolTip": "MvcQuizSonDeneme\\Views\\MemoryKart\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T17:47:08.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "YeniKategori.cshtml",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\YeniKategori.cshtml",
+              "RelativeDocumentMoniker": "MvcQuizSonDeneme\\Views\\MemoryKart\\YeniKategori.cshtml",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\YeniKategori.cshtml",
+              "RelativeToolTip": "MvcQuizSonDeneme\\Views\\MemoryKart\\YeniKategori.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T17:52:01.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MemoryKartController.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Controllers\\MemoryKartController.cs",
+              "RelativeDocumentMoniker": "MvcQuizSonDeneme\\Controllers\\MemoryKartController.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Controllers\\MemoryKartController.cs",
+              "RelativeToolTip": "MvcQuizSonDeneme\\Controllers\\MemoryKartController.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAywAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:51:24.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KayitOlController.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Controllers\\KayitOlController.cs",
+              "RelativeDocumentMoniker": "MvcQuizSonDeneme\\Controllers\\KayitOlController.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Controllers\\KayitOlController.cs",
+              "RelativeToolTip": "MvcQuizSonDeneme\\Controllers\\KayitOlController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:51:20.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GirisController.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Controllers\\GirisController.cs",
+              "RelativeDocumentMoniker": "MvcQuizSonDeneme\\Controllers\\GirisController.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Controllers\\GirisController.cs",
+              "RelativeToolTip": "MvcQuizSonDeneme\\Controllers\\GirisController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:51:16.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "KategoriSecimEkrani.cshtml",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\KategoriSecimEkrani.cshtml",
+              "RelativeDocumentMoniker": "MvcQuizSonDeneme\\Views\\MemoryKart\\KategoriSecimEkrani.cshtml",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\MemoryKart\\KategoriSecimEkrani.cshtml",
+              "RelativeToolTip": "MvcQuizSonDeneme\\Views\\MemoryKart\\KategoriSecimEkrani.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T17:51:54.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\KayitOl\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcQuizSonDeneme\\Views\\KayitOl\\Index.cshtml",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\KayitOl\\Index.cshtml",
+              "RelativeToolTip": "MvcQuizSonDeneme\\Views\\KayitOl\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAE8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T17:47:01.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\Giris\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcQuizSonDeneme\\Views\\Giris\\Index.cshtml",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\MvcQuizSonDeneme\\Views\\Giris\\Index.cshtml",
+              "RelativeToolTip": "MvcQuizSonDeneme\\Views\\Giris\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T17:50:57.037Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

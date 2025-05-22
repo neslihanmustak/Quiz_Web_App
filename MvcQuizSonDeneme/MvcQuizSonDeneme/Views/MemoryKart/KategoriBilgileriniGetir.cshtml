@@ -1,0 +1,38 @@
+﻿@model MvcQuizSonDeneme.Models.EntityFramework.soruKategori
+
+@{
+    ViewBag.Title = "KategoriBilgileriniGetir";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>KategoriBilgileriniGetir</h2>
+
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/MemoryCard.css" />
+    <link rel="icon" type="image/icon" href="images\favicon.ico" />
+
+</head>
+<body>
+
+    @using (Html.BeginForm("KategoriGuncelle", "MemoryKart", FormMethod.Post))
+    {
+        <h2>KartBilgileriniGoruntule</h2>
+        @Html.HiddenFor(x => x.id, new { @class = "form-control" })
+
+        <br />
+       <h2> KartBilgileriniGoruntule</h2>
+        @Html.TextBoxFor(x => x.kategori, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-warning">Güncelle</button>
+
+
+    }
+
+</body>
+
+</html>

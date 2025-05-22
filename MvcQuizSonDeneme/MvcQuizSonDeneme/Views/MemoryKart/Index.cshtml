@@ -1,0 +1,58 @@
+﻿@model IEnumerable<MvcQuizSonDeneme.Models.EntityFramework.SoruKarti>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Memory Card</h2>
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/MemoryCard.css" />
+    <link rel="icon" type="image/icon" href="images\favicon.ico" />
+
+</head>
+<body>
+    @{
+        var kart = Model.FirstOrDefault();
+    }
+
+    @if (kart != null)
+    {
+        <a href="/MemoryKart/KategoriSecimEkrani" class="btn btn-secondary">Kategorilere geri dön</a>
+
+        <div class="kart-container">
+            <div class="kart" onclick="this.classList.toggle('flipped')">
+                <div class="front">
+                    <h3 style="text-align: center; color: black;">@kart.soru</h3>
+                </div>
+                <div class="back">
+                    <h3 style="text-align: center; color: black;" >@kart.cevap</h3>
+                </div>
+            </div>
+
+            <div class="actions">
+
+                <a href="/MemoryKart/KartGoster/@ViewBag.NextId?kategoriId=@ViewBag.KategoriId" class="btn btn-danger">Yanlış</a>
+                <a href="/MemoryKart/KartBilgileriniGoruntule/@kart.id" class="btn btn-info">Güncelle</a>
+
+                <a href="/MemoryKart/KartSil/@kart.id?kategoriId=@ViewBag.KategoriId" class="btn btn-success">Doğru </a>
+
+            </div>
+            <p class="text-muted">Kart @ViewBag.CurrentIndex / @ViewBag.Total</p>
+
+        </div>
+    }
+    else
+    {
+        <p>Kart bulunamadı.</p>
+    }
+
+    <a href="/MemoryKart/YeniKart/" class="btn btn-secondary">Yeni Kart Ekle</a>
+
+</body>
+</html>

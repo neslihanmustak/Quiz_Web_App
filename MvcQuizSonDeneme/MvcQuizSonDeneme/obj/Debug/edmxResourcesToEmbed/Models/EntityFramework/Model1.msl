@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MvcQuizYeniModelStoreContainer" CdmEntityContainer="MvcQuizYeniEntities">
+    <EntitySetMapping Name="kullaniciBilgileri">
+      <EntityTypeMapping TypeName="MvcQuizYeniModel.kullaniciBilgileri">
+        <MappingFragment StoreEntitySet="kullaniciBilgileri">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="isim" ColumnName="isim" />
+          <ScalarProperty Name="soyisim" ColumnName="soyisim" />
+          <ScalarProperty Name="kullaniciAdi" ColumnName="kullaniciAdi" />
+          <ScalarProperty Name="sifre" ColumnName="sifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SoruKarti">
+      <EntityTypeMapping TypeName="MvcQuizYeniModel.SoruKarti">
+        <MappingFragment StoreEntitySet="SoruKarti">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="soru" ColumnName="soru" />
+          <ScalarProperty Name="cevap" ColumnName="cevap" />
+          <ScalarProperty Name="kullaniciId" ColumnName="kullaniciId" />
+          <ScalarProperty Name="kategori" ColumnName="kategori" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="soruKategori">
+      <EntityTypeMapping TypeName="MvcQuizYeniModel.soruKategori">
+        <MappingFragment StoreEntitySet="soruKategori">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="kategori" ColumnName="kategori" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

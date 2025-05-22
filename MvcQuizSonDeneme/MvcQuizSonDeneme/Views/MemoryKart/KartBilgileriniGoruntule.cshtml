@@ -1,0 +1,38 @@
+﻿@model MvcQuizSonDeneme.Models.EntityFramework.SoruKarti
+
+@{
+    ViewBag.Title = "KartBilgileriniGoruntule";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/MemoryCard.css" />
+    <link rel="icon" type="image/icon" href="images\favicon.ico" />
+
+</head>
+<body>
+
+    @using (Html.BeginForm("KartGuncelle", "MemoryKart", FormMethod.Post))
+    {
+        <h2>Kart Güncelle</h2>
+        @Html.HiddenFor(x => x.id, new { @class = "form-control" })
+        <br>
+        @Html.TextAreaFor(x => x.soru, new { @class = "form-control", style = "width: 400px ;" })
+        <br>
+        @Html.TextAreaFor(x => x.cevap, new { @class = "form-control", style = "width: 400px ;" })
+        <br />
+        <button class="btn btn-secondary">Güncelle</button>
+
+
+    }
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+﻿@model MvcQuizSonDeneme.Models.EntityFramework.kullaniciBilgileri
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/GirisKayit.css" />
+    <link rel="icon" type="image/icon" href="images\favicon.ico" />
+
+</head>
+<body>
+
+
+    <div class="login-container">
+        <h2>Kayıt Ol</h2>
+        <form method="post" action="/KayitOl/yeniKullanici">
+
+            <div>
+                <label>
+
+                    Adı
+
+                </label>
+
+                @Html.TextBoxFor(m => m.isim, new { @class = "form-control" })
+                <label>
+
+                    Soyadı
+
+                </label>
+
+                @Html.TextBoxFor(m => m.soyisim, new { @class = "form-control" })
+
+                <label>
+
+                    Kullanıcı Adı
+
+                </label>
+
+                @Html.TextBoxFor(m => m.kullaniciAdi, new { @class = "form-control" })
+
+          
+
+                <label>
+
+                    Şifre
+
+                </label>
+
+                @Html.TextBoxFor(m => m.sifre, new { @class = "form-control" })
+
+
+
+                <br />
+
+                <button type="submit" class="btn btn-secondary">Kaydet</button>
+
+               <button> <a href="~/Giris/Index" class="btn btn-danger">Vazgeç</a></button>
+            </div>
+
+        </form>
+
+      
+
+
+    </div>
+
+
+</body>
+</html>
+
+

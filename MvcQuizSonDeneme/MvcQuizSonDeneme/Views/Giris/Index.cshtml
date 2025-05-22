@@ -1,0 +1,48 @@
+﻿@model MvcQuizSonDeneme.Models.EntityFramework.kullaniciBilgileri
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/GirisKayit.css" />
+    <link rel="icon" type="image/icon" href="images/favicon.ico" />
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Kullanıcı Girişi</h2>
+
+        @using (Html.BeginForm("Giris", "Giris", FormMethod.Post)){
+        <div class="w3l-form-group">
+            <label>Kullanıcı Adı:</label>
+            <div class="group">
+                <i class="fas fa-user"></i>
+                <input type="text" class="form-control" required="required" name="kullaniciAdi" />
+            </div>
+        </div>
+        <div class="w3l-form-group">
+            <label>Şifre:</label>
+            <div class="group">
+                <i class="fas fa-unlock"></i>
+                <input type="password" class="form-control"  required="required" name="sifre" />
+            </div>
+        </div>
+        <br />
+        <button type="submit" class="btn btn-secondary">Giriş Yap</button>
+        }
+
+        @if (ViewBag.Hata != null)
+        {
+            <div class="alert alert-danger mt-3">@ViewBag.Hata</div>
+        }
+    </div>
+</body>
+</html>

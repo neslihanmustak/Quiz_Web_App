@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MvcQuizYeniModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="kullaniciBilgileri">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="isim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="soyisim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="kullaniciAdi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="sifre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="SoruKarti" Relationship="Self.FK_SoruKarti_Kullanici" FromRole="kullaniciBilgileri" ToRole="SoruKarti" />
+  </EntityType>
+  <EntityType Name="SoruKarti">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="soru" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="cevap" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="kullaniciId" Type="Int32" />
+    <Property Name="kategori" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="kullaniciBilgileri" Relationship="Self.FK_SoruKarti_Kullanici" FromRole="SoruKarti" ToRole="kullaniciBilgileri" />
+    <NavigationProperty Name="soruKategori" Relationship="Self.FK_SoruKarti_Kategori" FromRole="SoruKarti" ToRole="soruKategori" />
+  </EntityType>
+  <EntityType Name="soruKategori">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kategori" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="SoruKarti" Relationship="Self.FK_SoruKarti_Kategori" FromRole="soruKategori" ToRole="SoruKarti" />
+  </EntityType>
+  <Association Name="FK_SoruKarti_Kullanici">
+    <End Role="kullaniciBilgileri" Type="Self.kullaniciBilgileri" Multiplicity="0..1" />
+    <End Role="SoruKarti" Type="Self.SoruKarti" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kullaniciBilgileri">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="SoruKarti">
+        <PropertyRef Name="kullaniciId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SoruKarti_Kategori">
+    <End Role="soruKategori" Type="Self.soruKategori" Multiplicity="1" />
+    <End Role="SoruKarti" Type="Self.SoruKarti" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="soruKategori">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="SoruKarti">
+        <PropertyRef Name="kategori" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MvcQuizYeniEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="kullaniciBilgileri" EntityType="Self.kullaniciBilgileri" />
+    <EntitySet Name="SoruKarti" EntityType="Self.SoruKarti" />
+    <EntitySet Name="soruKategori" EntityType="Self.soruKategori" />
+    <AssociationSet Name="FK_SoruKarti_Kullanici" Association="Self.FK_SoruKarti_Kullanici">
+      <End Role="kullaniciBilgileri" EntitySet="kullaniciBilgileri" />
+      <End Role="SoruKarti" EntitySet="SoruKarti" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SoruKarti_Kategori" Association="Self.FK_SoruKarti_Kategori">
+      <End Role="soruKategori" EntitySet="soruKategori" />
+      <End Role="SoruKarti" EntitySet="SoruKarti" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
