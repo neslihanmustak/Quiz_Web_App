@@ -1,19 +1,34 @@
+# Visual Studio / .NET
 .vs/
 **/bin/
 **/obj/
+**/TestResults/
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
 *.cache
 *.nupkg
 packages/
-TestResults/
+
+# Logs & local data
 *.log
 *.db
 *.mdf
 *.ldf
 *.bak
+
+# Secrets / certs
 *.pfx
 *.snk
+*.pem
+*.key
+*.crt
+*.cer
+
+# App config (local overrides)
 appsettings.json
 appsettings.*.json
 Web.config.local
+.env
+.env.*
